@@ -16,5 +16,5 @@ def test_synthetic_fields_in_range():
     assert df["noaa_prob"].between(0, 1).all()
     assert df["outcome"].isin([0, 1]).all()
     assert df["city"].isin(
-        ["NYC", "Chicago", "Miami", "Seattle", "Atlanta", "Dallas"]
+        list(__import__("src.predict_weather.data_model", fromlist=["CITY_COORDS"]).CITY_COORDS.keys())
     ).all()
