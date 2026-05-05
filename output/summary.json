@@ -2,36 +2,36 @@
   "source": "live",
   "n_observations": 7,
   "brier": {
-    "polymarket": 0.14228714285714286,
+    "polymarket": 0.14228757142857143,
     "noaa": 0.055868371730721976
   },
   "flagged_buckets": [
     {
       "n": 6,
-      "poly_mean": 0.001,
+      "poly_mean": 0.0011666666666666668,
       "noaa_mean": 0.22461551996827966,
       "outcome_rate": 0.0,
       "bin_left": -0.001,
       "bin_right": 0.1,
-      "abs_gap": 0.22361551996827966,
+      "abs_gap": 0.223448853301613,
       "flagged": true
     },
     {
       "n": 1,
       "poly_mean": 0.998,
-      "noaa_mean": 0.17051845243374208,
+      "noaa_mean": 0.1705184524337422,
       "outcome_rate": 0.0,
       "bin_left": 0.9,
       "bin_right": 1.0,
-      "abs_gap": 0.8274815475662579,
+      "abs_gap": 0.8274815475662578,
       "flagged": true
     }
   ],
   "simulation": {
     "n_trades": 5,
     "win_rate": 0.2,
-    "gross_roi": 206.61256249188514,
-    "net_roi": 206.59256249188513,
+    "gross_roi": 206.6845362107771,
+    "net_roi": 206.66453621077713,
     "mean_trade_roi": 98.97999999999992,
     "std_trade_roi": 223.60679774997877,
     "t_statistic": 0.9898,
