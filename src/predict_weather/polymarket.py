@@ -100,7 +100,7 @@ class PolymarketClient:
                 if "temperature" in title.lower() or "rain" in title.lower():
                     yield m
             offset += PAGE_LIMIT
-            if offset >= 600:
+            if offset >= 2000:
                 return
 
     def price_at(self, token_id: str, ts: datetime) -> float | None:
