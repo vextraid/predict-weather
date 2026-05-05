@@ -1,0 +1,46 @@
+{
+  "source": "live",
+  "n_observations": 7,
+  "brier": {
+    "polymarket": 0.14228714285714286,
+    "noaa": 0.055868371730721976
+  },
+  "flagged_buckets": [
+    {
+      "n": 6,
+      "poly_mean": 0.001,
+      "noaa_mean": 0.22461551996827966,
+      "outcome_rate": 0.0,
+      "bin_left": -0.001,
+      "bin_right": 0.1,
+      "abs_gap": 0.22361551996827966,
+      "flagged": true
+    },
+    {
+      "n": 1,
+      "poly_mean": 0.998,
+      "noaa_mean": 0.17051845243374208,
+      "outcome_rate": 0.0,
+      "bin_left": 0.9,
+      "bin_right": 1.0,
+      "abs_gap": 0.8274815475662579,
+      "flagged": true
+    }
+  ],
+  "simulation": {
+    "n_trades": 5,
+    "win_rate": 0.2,
+    "gross_roi": 206.61256249188514,
+    "net_roi": 206.59256249188513,
+    "mean_trade_roi": 98.97999999999992,
+    "std_trade_roi": 223.60679774997877,
+    "t_statistic": 0.9898,
+    "p_value_one_sided": 0.18915122268125087,
+    "significant_at_5pct": false
+  },
+  "bootstrap_95ci_mean_trade_roi": [
+    -1.02,
+    298.97999999999973
+  ],
+  "reliability_plot": "output/reliability.png"
+}
